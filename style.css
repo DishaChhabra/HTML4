@@ -1,0 +1,51 @@
+h1 {
+    color: #a52a2a;
+    border: solid;
+    background-color: black
+}
+.div1{
+    border: solid;
+    display: flex;
+    justify-content:space-between
+}
+.div2 a{
+    margin-left:30px
+}
+.div3{
+    display:flex;
+    justify-content:space-evenly;
+    flex-wrap:wrap
+}
+.div4{
+    text-align: center;
+}
+*{
+    background-color: #dcf5e2;
+}
+img{
+    height: 300px;
+    width:300px;
+}
+a:link{
+    color:chartreuse
+}
+a:visited{
+    color:darkgreen
+}
+.subdiv{
+    position:relative;
+}
+.subdiv p{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%);
+    opacity:0
+}
+
+.subdiv:hover p{
+    opacity:1
+}
+img:hover{
+    transform:scale(1.5);
+}
